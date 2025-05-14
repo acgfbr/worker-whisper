@@ -1,5 +1,5 @@
 <div align="center">
-
+test
 <h1>Whisper | Worker</h1>
 
 This repository contains the Whisper Worker for RunPod. The Whisper Worker is designed to process audio files using various Whisper models, with options for transcription formatting, language translation, and more. It's part of the RunPod Workers collection aimed at providing diverse functionality for endpoint processing.
@@ -11,7 +11,7 @@ This repository contains the Whisper Worker for RunPod. The Whisper Worker is de
 ## Model Inputs
 
 | Input                               | Type  | Description                                                                                                 |
-|-------------------------------------|-------|-------------------------------------------------------------------------------------------------------------|
+| ----------------------------------- | ----- | ----------------------------------------------------------------------------------------------------------- |
 | `audio`                             | Path  | Audio file                                                                                                  |
 | `model`                             | str   | Choose a Whisper model. Choices: "tiny", "base", "small", "medium", "large-v1", "large-v2". Default: "base" |
 | `transcription`                     | str   | Choose the format for the transcription. Choices: "plain text", "srt", "vtt". Default: "plain text"         |
@@ -36,8 +36,8 @@ The following inputs can be used for testing the model:
 
 ```json
 {
-    "input": {
-        "audio": "https://github.com/runpod-workers/sample-inputs/raw/main/audio/gettysburg.wav"
-    }
+  "input": {
+    "audio": "https://github.com/runpod-workers/sample-inputs/raw/main/audio/gettysburg.wav"
+  }
 }
 ```
